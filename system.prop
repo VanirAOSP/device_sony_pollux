@@ -3,3 +3,6 @@ ro.cwm.enable_key_repeat=true
 
 # Graphics
 ro.sf.lcd_density=240
+
+# Disable GC freed lines
+dalvik.vm.debug.alloc=0
